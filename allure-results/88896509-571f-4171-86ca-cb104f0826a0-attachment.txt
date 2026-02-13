@@ -1,0 +1,12 @@
+[
+  'MuleSoft',
+  'mulesoft developer',
+  'mulesoft certification',
+  'mulesoft agent fabric',
+  'mulesoft salesforce',
+  'mulesoft training',
+  'mulesoft rpa',
+  'mulesoft dev agent',
+  'mulesoft meetup',
+  'mulesoft jobs in pune'
+]

@@ -1,0 +1,898 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Snowboarding 2026" [ref=e4] [cursor=pointer]:
+        - /url: /search?q=What+are+some+of+the+coolest+snowboarding+trick+names+and+the+lore+behind+them?&udm=50&oi=ddle&noiga=1&aep=84&ictx=1&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQPXoECAQQAA
+        - img "Snowboarding 2026" [ref=e5]
+      - link "Sign in" [ref=e11] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dmulesoft%2Bdeveloper%26sca_esv%3Df5dfd2a34bf4e47a%26source%3Dhp%26ei%3D9IyHaZv5Bfn21e8P6eT7gAU%26biw%3D393%26bih%3D727%26oq%3Dmulsoft%26gs_lp%3DEhFtb2JpbGUtZ3dzLXdpei1ocCIHbXVsc29mdCoCCAEyEhAuGIAEGLEDGNEDGMcBGAoYCzIJEAAYgAQYChgLMgkQABiABBgKGAsyCRAAGIAEGAoYCzIJEAAYgAQYChgLMgkQABiABBgKGAsyCRAAGIAEGAoYCzIJEAAYgAQYChgLSLCCAVCcAVicAXABeACQAQCYAbIBoAGyAaoBAzAuMbgBAcgBAPgBAZgCAqAC6wGoAg_CAhAQABgDGLQCGOoCGI8B2AEBmAMk8QV7vWUjj6WnuroGBAgBGAqSBwMxLjGgB8sIsgcDMC4xuAfHAcIHAzQtMsgHNoAIAA%26sclient%3Dmobile-gws-wiz-hp%26sei%3DB42HabKHOIuH4-EPgu2D4AM&ec=futura_srp_og_si_72236_p
+    - generic "Search settings" [ref=e13]:
+      - button "Main menu" [ref=e14]:
+        - img [ref=e15]
+    - search [ref=e20]:
+      - generic [ref=e23]:
+        - button "Google Search" [ref=e24]:
+          - img [ref=e27]
+        - combobox [ref=e30]:
+          - textbox "Google Search" [ref=e31]:
+            - /placeholder: ""
+            - text: mulesoft developer
+        - generic [ref=e32]:
+          - button "Clear Search" [ref=e33] [cursor=pointer]:
+            - generic "Clear Search" [ref=e34]:
+              - img [ref=e35]
+          - button "Search by voice" [ref=e38] [cursor=pointer]:
+            - img "Search by voice" [ref=e39]
+  - generic [ref=e43]:
+    - generic [ref=e45]:
+      - heading "Filters and topics" [level=1] [ref=e46]
+      - navigation [ref=e47]:
+        - generic [ref=e51]:
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - link "AI Mode" [ref=e56] [cursor=pointer]:
+                - /url: /search?q=mulesoft+developer&sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=50&source=hp&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&aep=1&ntc=1&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ2J8OegQIEBAE
+                - generic [ref=e58]: AI Mode
+            - listitem [ref=e59]:
+              - link "All" [disabled] [ref=e60]:
+                - generic [ref=e62]: All
+            - listitem [ref=e63]:
+              - link "Images" [ref=e64] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=2&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQtKgLegQIFhAB
+                - generic [ref=e66]: Images
+            - listitem [ref=e67]:
+              - link "Shopping" [ref=e68] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=28&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&ved=1t:220175&ictx=111
+                - generic [ref=e70]: Shopping
+            - listitem [ref=e71]:
+              - link "Videos" [ref=e72] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=7&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQtKgLegQIEhAB
+                - generic [ref=e74]: Videos
+            - listitem [ref=e75]:
+              - link "News" [ref=e76] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=mulesoft+developer&tbm=nws&source=lnms&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ0pQJegQIExAB
+                - generic [ref=e78]: News
+            - listitem [ref=e79]:
+              - link "Short videos" [ref=e80] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=39&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQs6gLegQIFBAB
+                - generic [ref=e82]: Short videos
+            - listitem [ref=e83]:
+              - link "Forums" [ref=e84] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=18&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQs6gLegUIwQEQAQ
+                - generic [ref=e86]: Forums
+            - listitem [ref=e87]:
+              - link "Books" [ref=e88] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=mulesoft+developer&udm=36&source=lnms&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ0pQJegUIwAEQAQ
+                - generic [ref=e90]: Books
+            - listitem [ref=e91]:
+              - link "Web" [ref=e92] [cursor=pointer]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=web&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQs6gLegUI3AEQAQ
+                - generic [ref=e94]: Web
+            - listitem [ref=e95]:
+              - link "Maps" [ref=e96] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&output=search&q=mulesoft+developer&source=lnms&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&entry=mc&ved=1t:200715&ictx=111
+                - generic [ref=e98]: Maps
+            - listitem [ref=e99]:
+              - link "Flights" [ref=e100] [cursor=pointer]:
+                - /url: /travel/flights?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&output=search&q=mulesoft+developer&source=lnms&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&ved=1t:200715&ictx=111
+                - generic [ref=e102]: Flights
+            - listitem [ref=e103]:
+              - link "Finance" [ref=e104] [cursor=pointer]:
+                - /url: /finance?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&output=search&q=mulesoft+developer&source=lnms&fbs=ADc_l-byipRaccqV0jmfPhi1DgzPtklXGmVkws8Z_lBff884vwWzYGOXmwhR8m6ZBpcqcPIygX2pO_pfNpUEhZEK-M0MqeKc30iDjd5gva0IURlc2NcfIR4ILZ33kLkccYOrQHKUsmnvjr0jQw7b7JSTs8ofYVPazwfFxAMQN5hfX0VIhfT8RlQ6E7p6OmO8YMyeeUjEeEk7g2CO044tyFWlOlz5wyakxyw4iYYfK92e9wfOFwW4q8I&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ0pQJegUI2gEQAQ
+                - generic [ref=e106]: Finance
+          - generic [ref=e107]:
+            - button "Search tools" [ref=e110] [cursor=pointer]:
+              - generic [ref=e112]: Search tools
+            - link "Feedback" [ref=e115] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e117]: Feedback
+    - generic [ref=e118]:
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: मराठी मध्ये शोधा
+          - button "mulesoft विकसक" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]:
+              - generic [ref=e132]: mulesoft विकसक
+              - img [ref=e134]
+        - button [ref=e139]:
+          - img [ref=e140]
+      - generic [ref=e143]:
+        - heading "Search Results" [level=1] [ref=e144]
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - heading "AI overview" [level=2] [ref=e149]
+            - generic [ref=e156]:
+              - generic [ref=e162]:
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - img [ref=e166]
+                    - generic [ref=e168]: AI Overview
+                  - generic [ref=e169]:
+                    - button "View 3 corroboration links" [ref=e173] [cursor=pointer]:
+                      - generic [ref=e178]: "+9"
+                    - button "About this result" [ref=e180]:
+                      - img [ref=e182]
+                - generic [ref=e196]:
+                  - generic [ref=e203]:
+                    - button [ref=e204]:
+                      - generic [ref=e205] [cursor=pointer]:
+                        - img [ref=e207]
+                        - img [ref=e210]
+                    - button [ref=e213]:
+                      - generic [ref=e215] [cursor=pointer]:
+                        - img [ref=e217]
+                        - generic [ref=e219]: Listen
+                  - generic [ref=e231]:
+                    - generic [ref=e232]:
+                      - generic [ref=e233]: A MuleSoft Developer
+                      - mark [ref=e234]:
+                        - text: designs, builds, tests, and manages APIs and integrations using the
+                        - generic [ref=e235]: Anypoint Platform
+                        - text: to connect disparate systems, applications, and data sources
+                      - text: . They utilize
+                      - generic [ref=e236]: Anypoint Studio
+                      - text: ","
+                      - generic [ref=e237]: DataWeave
+                      - text: ", and"
+                      - generic [ref=e238]: RAML
+                      - text: to create scalable, reusable application networks. Key responsibilities include reducing application complexity, supporting digital transformation, and ensuring secure, reliable data exchange.
+                      - button [ref=e241] [cursor=pointer]:
+                        - img [ref=e243]
+                    - strong [ref=e246]: Key Responsibilities & Skills
+                    - list [ref=e247]:
+                      - listitem [ref=e248]:
+                        - generic [ref=e249]:
+                          - strong [ref=e250]: "API Design & Development:"
+                          - text: Creating RESTful/SOAP APIs using RAML and MuleSoft Anypoint Platform.
+                      - listitem [ref=e251]:
+                        - generic [ref=e252]:
+                          - strong [ref=e253]: "Data Transformation:"
+                          - text: Using DataWeave for complex data mapping and manipulation.
+                      - listitem [ref=e254]:
+                        - generic [ref=e255]:
+                          - strong [ref=e256]: "Integration Flow Design:"
+                          - text: Building and deploying integration solutions using Mule ESB.
+                      - listitem [ref=e257]:
+                        - generic [ref=e258]:
+                          - strong [ref=e259]: "Technical Proficiencies:"
+                          - text: Familiarity with Java, XML, JSON, and SQL.
+                      - listitem [ref=e260]:
+                        - generic [ref=e261]:
+                          - strong [ref=e262]: "DevOps & Deployment:"
+                          - text: Experience with CI/CD tools (Jenkins), version control (Git), and CloudHub.
+                      - listitem [ref=e263]:
+                        - generic [ref=e264]:
+                          - strong [ref=e265]: "Security:"
+                          - text: Implementing API security policies.
+                        - button [ref=e268] [cursor=pointer]:
+                          - img [ref=e270]
+                    - strong [ref=e273]: How to Become a MuleSoft Developer
+                    - list [ref=e274]:
+                      - listitem [ref=e275]:
+                        - generic [ref=e276]:
+                          - strong [ref=e277]: "Education & Training:"
+                          - text: Gain knowledge of web services, APIs, and databases.
+                      - listitem [ref=e278]:
+                        - generic [ref=e279]:
+                          - strong [ref=e280]: "Certification:"
+                          - text: Obtain the
+                          - link [ref=e282] [cursor=pointer]:
+                            - /url: https://trailheadacademy.salesforce.com/certificate/exam-mule-dev---Mule-Dev-201
+                            - text: Salesforce Certified MuleSoft Developer - Level 1
+                          - text: to validate skills in Mule 4 projects.
+                      - listitem [ref=e283]:
+                        - generic [ref=e284]:
+                          - strong [ref=e285]: "Tools:"
+                          - text: Learn Anypoint Platform, Anypoint Studio, and DataWeave, utilizing
+                          - link [ref=e287] [cursor=pointer]:
+                            - /url: https://developer.mulesoft.com/
+                            - text: Mulesoft’s documentation and training
+                          - text: .
+                      - listitem [ref=e288]:
+                        - generic [ref=e289]:
+                          - strong [ref=e290]: "Practice:"
+                          - text: Work on real-world integration projects and build a portfolio.
+                        - button [ref=e293] [cursor=pointer]:
+                          - img [ref=e295]
+                    - generic [ref=e297]:
+                      - strong [ref=e298]: Salary & Demand
+                      - text: MuleSoft developers are highly in demand, with salaries often exceeding those of standard software developers by roughly 15%. In India, average salaries range from ₹19.0 lakhs to ₹48.8 lakhs, with an average around ₹24.7 lakhs per year.
+                      - button [ref=e301] [cursor=pointer]:
+                        - img [ref=e303]
+                    - list [ref=e308]:
+                      - generic [ref=e309]:
+                        - listitem [ref=e310]:
+                          - generic [ref=e311]:
+                            - link [ref=e312] [cursor=pointer]:
+                              - /url: https://www.youtube.com/shorts/zDAc7LWCzI8
+                            - generic [ref=e314]:
+                              - generic [ref=e315]:
+                                - button [ref=e318] [cursor=pointer]:
+                                  - generic [ref=e319]:
+                                    - img [ref=e321]
+                                    - text: 0:48
+                                  - img [ref=e325]
+                                - generic [ref=e327]: MuleSoft Developer Roadmap | How to Become a MuleSoft Developer ...
+                              - generic [ref=e328]:
+                                - generic [ref=e334]:
+                                  - text: YouTube
+                                  - generic [ref=e335]: ·MindMajix
+                                - button [ref=e336] [cursor=pointer]:
+                                  - img [ref=e337]
+                        - listitem [ref=e339]:
+                          - generic [ref=e340]:
+                            - link [ref=e341] [cursor=pointer]:
+                              - /url: https://trailheadacademy.salesforce.com/certificate/exam-mule-dev---Mule-Dev-201#:~:text=About%20this%20certification,to%20Anypoint%20Studio%20and%20back.
+                            - generic [ref=e343]:
+                              - generic [ref=e344]: Salesforce Certified MuleSoft Developer - Trailhead Academy
+                              - generic [ref=e346]: About this certification. The Salesforce Certified MuleSoft Developer credential is designed for individuals who have experience working on basic Mule 4 project...
+                              - generic [ref=e347]:
+                                - generic [ref=e350]: Trailhead Academy
+                                - button [ref=e351] [cursor=pointer]:
+                                  - img [ref=e352]
+                        - listitem [ref=e355]:
+                          - generic [ref=e356]:
+                            - link [ref=e357] [cursor=pointer]:
+                              - /url: https://www.bluent.com/blog/mulesoft-developers#:~:text=A%20MuleSoft%20developer%20works%20in%20a%20MuleSoft,Helping%20enterprises%20with%20their%20digital%20transformation%20process
+                            - generic [ref=e359]:
+                              - generic [ref=e360]: 12 Essential Skills for Successful MuleSoft Developers
+                              - generic [ref=e362]: "30 Oct 2023 — A MuleSoft developer works in a MuleSoft environment to provide integration and other solutions. They are responsible for: * Deploying technical solutions to bu..."
+                              - generic [ref=e363]:
+                                - generic [ref=e366]: BluEnt
+                                - button [ref=e367] [cursor=pointer]:
+                                  - img [ref=e368]
+                        - listitem [ref=e371]:
+                          - generic [ref=e372]:
+                            - link [ref=e373] [cursor=pointer]:
+                              - /url: https://www.igmguru.com/blog/how-to-become-mulesoft-developer
+                            - generic [ref=e375]:
+                              - generic [ref=e376]: How To Become MuleSoft Developer in 2026? - igmGuru
+                              - generic [ref=e378]: "8 Dec 2025 — MuleSoft Certifications- * DEVELOPER. MuleSoft Certified Integration Associate. Duration: 1 hour 30 minutes. This certification will validate your knowledge of ..."
+                              - generic [ref=e379]:
+                                - generic [ref=e382]: igmGuru
+                                - button [ref=e383] [cursor=pointer]:
+                                  - img [ref=e384]
+                        - listitem [ref=e387]:
+                          - generic [ref=e388]:
+                            - link [ref=e389] [cursor=pointer]:
+                              - /url: https://developer.mulesoft.com/
+                            - generic [ref=e391]:
+                              - generic [ref=e392]: MuleSoft Developers
+                              - generic [ref=e394]: Learn * Instructor-Led Training Courses. * MuleSoft Certification. Get started. * Self-Paced Training Courses. * Documentation. Read more. * DataWeave. * DataWe...
+                              - generic [ref=e395]:
+                                - generic [ref=e398]: MuleSoft Developers
+                                - button [ref=e399] [cursor=pointer]:
+                                  - img [ref=e400]
+                        - listitem [ref=e403]:
+                          - generic [ref=e404]:
+                            - link [ref=e405] [cursor=pointer]:
+                              - /url: https://www.naukri.com/mulesoft-developer-jobs#:~:text=Mulesoft%20Developer%20Jobs%20%2D%20865%20Mulesoft,Mulesoft%20Developer
+                            - generic [ref=e407]:
+                              - generic [ref=e408]: Mulesoft Developer Jobs - Naukri.com
+                              - generic [ref=e410]: Mulesoft Developer Jobs - 865 Mulesoft Developer Job Vacancies In February 2026 - Naukri.com. Mulesoft Developer jobs. Download the app. Jobs. Mulesoft Develope...
+                              - generic [ref=e411]:
+                                - generic [ref=e414]: Naukri.com
+                                - button [ref=e415] [cursor=pointer]:
+                                  - img [ref=e416]
+                        - listitem [ref=e418]:
+                          - generic [ref=e419]:
+                            - link [ref=e420] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=HGGpnRjF7W4&t=105
+                            - generic [ref=e422]:
+                              - generic [ref=e423]:
+                                - button [ref=e426] [cursor=pointer]:
+                                  - generic [ref=e428]:
+                                    - img [ref=e429]
+                                    - generic [ref=e431]: 2m
+                                  - img [ref=e436]
+                                - generic [ref=e438]: How to become a Mulesoft developer? | How to start your career in Mulesoft ...
+                              - generic [ref=e439]:
+                                - generic [ref=e445]:
+                                  - text: YouTube
+                                  - generic [ref=e446]: ·saasguru
+                                - button [ref=e447] [cursor=pointer]:
+                                  - img [ref=e448]
+                        - listitem [ref=e450]:
+                          - generic [ref=e451]:
+                            - link [ref=e452] [cursor=pointer]:
+                              - /url: https://www.mulesoft.com/platform/ai#:~:text=With%20MuleSoft%20MCP%20support%20developers,%2C%20reliably%2C%20and%20at%20scale.
+                            - generic [ref=e454]:
+                              - generic [ref=e455]: MuleSoft AI | MuleSoft
+                              - generic [ref=e457]: With MuleSoft MCP support developers can transform any API to be exposed as a structured, agent-ready asset. This enables AI agents to not only gather context f...
+                              - generic [ref=e458]:
+                                - generic [ref=e461]: Mulesoft
+                                - button [ref=e462] [cursor=pointer]:
+                                  - img [ref=e463]
+                        - listitem [ref=e466]:
+                          - generic [ref=e467]:
+                            - link [ref=e468] [cursor=pointer]:
+                              - /url: https://www.imocha.io/skill-mapping/skills-required-for-mulesoft-developer#:~:text=The%20role%20of%20a%20MuleSoft,efficiency%2C%20scalability%2C%20and%20adaptability.
+                            - generic [ref=e470]:
+                              - generic [ref=e471]: Skills Required for Mulesoft Developer - iMocha
+                              - generic [ref=e473]: The role of a MuleSoft Developer encompasses designing, developing, and maintaining APIs that facilitate smooth data exchange and communication across diverse s...
+                              - generic [ref=e474]:
+                                - generic [ref=e477]: iMocha
+                                - button [ref=e478] [cursor=pointer]:
+                                  - img [ref=e479]
+                        - listitem [ref=e481]:
+                          - generic [ref=e482]:
+                            - link [ref=e483] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=o6XuKS0wDKk&t=146
+                            - generic [ref=e485]:
+                              - generic [ref=e486]:
+                                - button [ref=e489] [cursor=pointer]:
+                                  - generic [ref=e491]:
+                                    - img [ref=e492]
+                                    - generic [ref=e494]: 1m
+                                  - img [ref=e499]
+                                - generic [ref=e501]: MuleSoft Full Course (30 Hours) – Beginner to Advanced | Free Real ...
+                              - generic [ref=e502]:
+                                - generic [ref=e508]:
+                                  - text: YouTube
+                                  - generic [ref=e509]: ·KLART Technologies
+                                - button [ref=e510] [cursor=pointer]:
+                                  - img [ref=e511]
+                        - listitem [ref=e513]:
+                          - generic [ref=e514]:
+                            - link [ref=e515] [cursor=pointer]:
+                              - /url: https://6figr.com/in/salary/mulesoft--s#:~:text=Employees%20who%20know%20Mulesoft%20earn,lakhs%20based%20on%2025%20profiles.
+                            - generic [ref=e517]:
+                              - generic [ref=e518]: Mulesoft Salaries 2026 in India, Average salary ₹25 lakhs - 6figr.com
+                              - generic [ref=e520]: 6 Feb 2026 — Employees who know Mulesoft earn an average of ₹24.7lakhs, mostly ranging from ₹19.0lakhs to ₹48.8lakhs based on 25 profiles.
+                              - generic [ref=e521]:
+                                - generic [ref=e524]: 6figr.com
+                                - button [ref=e525] [cursor=pointer]:
+                                  - img [ref=e526]
+                        - generic [ref=e529]:
+                          - link [ref=e530] [cursor=pointer]:
+                            - /url: https://www.yenlo.com/blogs/10-mulesoft-benefits-that-truly-stand-out/#:~:text=MuleSoft%20uses%20RAML%20(%20RESTful%20API%20Modeling,tools%20for%20managing%20and%20publishing%20your%20APIs.
+                          - generic [ref=e532]:
+                            - generic [ref=e533]: 10 MuleSoft Benefits That Truly Stand Out
+                            - generic [ref=e535]: 18 Apr 2023 — MuleSoft uses RAML ( RESTful API Modeling Language ) (RESTful API Modeling Language) to design and document APIs, and the Anypoint Platform provides tools for m...
+                            - generic [ref=e536]:
+                              - generic [ref=e539]: Yenlo
+                              - button [ref=e540] [cursor=pointer]:
+                                - img [ref=e541]
+              - button "Show more AI Overview" [ref=e547]:
+                - generic [ref=e549] [cursor=pointer]:
+                  - generic [ref=e550]: Show more
+                  - img [ref=e552]
+          - generic [ref=e561]:
+            - heading "MuleSoft" [level=2] [ref=e563]
+            - button "More options for MuleSoft" [ref=e571] [cursor=pointer]:
+              - img "More options for MuleSoft" [ref=e572]:
+                - img [ref=e576]
+            - button "Follow" [ref=e583]:
+              - generic [ref=e587] [cursor=pointer]: Follow
+          - generic [ref=e591]:
+            - list [ref=e601] [cursor=pointer]:
+              - generic [ref=e602]:
+                - button "Image of MuleSoft" [ref=e605]:
+                  - button "Image of MuleSoft" [ref=e608]:
+                    - img "Image of MuleSoft" [ref=e609]
+                - button "Image of MuleSoft" [ref=e612]:
+                  - button "Image of MuleSoft" [ref=e615]:
+                    - img "Image of MuleSoft" [ref=e616]
+                - button "Image of MuleSoft" [ref=e619]:
+                  - button "Image of MuleSoft" [ref=e622]:
+                    - img "Image of MuleSoft" [ref=e623]
+              - generic [ref=e624]:
+                - listitem [ref=e625]:
+                  - button "Image of MuleSoft" [ref=e627]:
+                    - button "Image of MuleSoft" [ref=e630]:
+                      - img "Image of MuleSoft" [ref=e631]
+                - listitem [ref=e632]:
+                  - button "Image of MuleSoft" [ref=e634]:
+                    - button "Image of MuleSoft" [ref=e637]:
+                      - img "Image of MuleSoft" [ref=e638]
+                - listitem [ref=e639]:
+                  - button "Image of MuleSoft" [ref=e641]:
+                    - button "Image of MuleSoft" [ref=e644]:
+                      - img "Image of MuleSoft" [ref=e645]
+                - listitem [ref=e646]:
+                  - button "Image of MuleSoft" [ref=e648]:
+                    - button "Image of MuleSoft" [ref=e651]:
+                      - img "Image of MuleSoft" [ref=e652]
+                - listitem [ref=e653]:
+                  - button "Image of MuleSoft" [ref=e655]:
+                    - button "Image of MuleSoft" [ref=e658]:
+                      - img "Image of MuleSoft" [ref=e659]
+                - listitem [ref=e660]:
+                  - button "Image of MuleSoft" [ref=e662]:
+                    - button "Image of MuleSoft" [ref=e665]:
+                      - img "Image of MuleSoft" [ref=e666]
+                - listitem [ref=e667]:
+                  - button "Image of MuleSoft" [ref=e669]:
+                    - button "Image of MuleSoft" [ref=e672]:
+                      - img "Image of MuleSoft" [ref=e673]
+                - listitem [ref=e674]:
+                  - button "Image of MuleSoft Developer Skills to Learn (Updated 2026)" [ref=e676]:
+                    - img "Image of MuleSoft Developer Skills to Learn (Updated 2026)" [ref=e680]
+                - listitem [ref=e681]:
+                  - button "Image of Tutorials and How Tos | MuleSoft Developer | MuleSoft Developers" [ref=e683]:
+                    - img "Image of Tutorials and How Tos | MuleSoft Developer | MuleSoft Developers" [ref=e687]
+                - listitem [ref=e688]:
+                  - button "Image of Skills required for MuleSoft Developer and how to assess them" [ref=e690]:
+                    - img "Image of Skills required for MuleSoft Developer and how to assess them" [ref=e694]
+                - listitem [ref=e695]:
+                  - button "Image of MuleSoft | Integration And Automation For The AI Era" [ref=e697]:
+                    - img "Image of MuleSoft | Integration And Automation For The AI Era" [ref=e701]
+                - listitem [ref=e702]:
+                  - button "Image of 5 Things Salesforce Developers Should Know about MuleSoft ..." [ref=e704]:
+                    - img "Image of 5 Things Salesforce Developers Should Know about MuleSoft ..." [ref=e708]
+                - listitem [ref=e709]:
+                  - button "Image of Salesforce MuleSoft Developer I Programme - Supermums" [ref=e711]:
+                    - img "Image of Salesforce MuleSoft Developer I Programme - Supermums" [ref=e715]
+                - listitem [ref=e716]:
+                  - button "Image of MuleSoft Developer Skills to Learn (Updated 2026)" [ref=e718]:
+                    - img "Image of MuleSoft Developer Skills to Learn (Updated 2026)" [ref=e722]
+                - listitem [ref=e723]:
+                  - button "Image of What is MuleSoft Developer? |Overview of MuleSoft Developer" [ref=e725]:
+                    - img "Image of What is MuleSoft Developer? |Overview of MuleSoft Developer" [ref=e729]
+                - listitem [ref=e730]:
+                  - button "Image of Developer Introduction to Mulesoft | Ballard Software" [ref=e732]:
+                    - img "Image of Developer Introduction to Mulesoft | Ballard Software" [ref=e736]
+                - listitem [ref=e737]:
+                  - button "Image of How to become a MuleSoft developer PlektonLabs Business -" [ref=e739]:
+                    - img "Image of How to become a MuleSoft developer PlektonLabs Business -" [ref=e743]
+                - listitem [ref=e744]:
+                  - button "Image of Redefine Integration Development With Anypoint Code Builder" [ref=e746]:
+                    - img "Image of Redefine Integration Development With Anypoint Code Builder" [ref=e750]
+                - listitem [ref=e751]:
+                  - button "Image of Mulesoft Developer Job Description Template | Adaface" [ref=e753]:
+                    - img "Image of Mulesoft Developer Job Description Template | Adaface" [ref=e757]
+                - listitem [ref=e758]:
+                  - button "Image of MuleSoft AI | MuleSoft" [ref=e760]:
+                    - img "Image of MuleSoft AI | MuleSoft" [ref=e764]
+                - listitem [ref=e765]:
+                  - button "Image of What Is MuleSoft? (+ How It Works With Salesforce ..." [ref=e767]:
+                    - img "Image of What Is MuleSoft? (+ How It Works With Salesforce ..." [ref=e771]
+                - listitem [ref=e772]:
+                  - button "Image of Simplify API Design, implementation, deployment, and ..." [ref=e774]:
+                    - img "Image of Simplify API Design, implementation, deployment, and ..." [ref=e778]
+              - link "View all images of mulesoft developer; double-tap to activate" [ref=e779]:
+                - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=mulesoft+developer&udm=2&source=univ&fir=NaAGjbu3YfvoYM%252CAAAAAAAAAAABAM%252C_%253BxLIqZceTqHyAOM%252CAAAAAAAAAAABAM%252C_%253Bmd8qOhsKHgm35M%252CAAAAAAAAAAABAM%252C_%253BYJh-74mJkG8GkM%252CAAAAAAAAAAABAM%252C_%253Be97Db2a6CB7XFM%252CAAAAAAAAAAABAM%252C_%253BcxoO1fqsQmTEBM%252CAAAAAAAAAAABAM%252C_%253BnEQrax_qKyGC5M%252CAAAAAAAAAAABAM%252C_%253BRPGLys4KB_wHzM%252CAAAAAAAAAAABAM%252C_%253B_XG_CGxxU5B8mM%252CAAAAAAAAAAABAM%252C_%253BiYRmetc_9W3MrM%252CAAAAAAAAAAABAM%252C_&usg=AI4_-kQGiOYKYGr-uwu0LEPfc3Lp__1A9A&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQnN8JKBl6BAgZEB0
+                - listitem [ref=e780]:
+                  - generic [ref=e781]:
+                    - img [ref=e786]
+                    - generic [ref=e789]: View all
+            - generic [ref=e792]:
+              - heading "Description for MuleSoft" [level=3] [ref=e793]
+              - generic [ref=e794]:
+                - generic [ref=e797]: MuleSoft, LLC. is a software company headquartered in San Francisco, that provides integration software for connecting applications, data and devices, founded in 2006.
+                - link "Wikipedia" [ref=e798] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/MuleSoft
+            - generic [ref=e805]:
+              - button "Founders" [ref=e806]:
+                - generic [ref=e807]: Founders
+                - generic:
+                  - generic:
+                    - img
+              - generic [ref=e812]:
+                - generic [ref=e814]: Ross Mason, Dave Rosenberg
+                - generic [ref=e818]:
+                  - button "+1"
+            - link "Headquarters San Francisco, California, United States" [ref=e825] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=San+Francisco&si=AL3DRZHmwLjWhgnaPB3UTu10R6S5qNLXiQiKMeezfKyB1FMsRt63P16RDsnJejxek60t6n1LhA5RARHGL6N3-TAZA97QlWOCgWWc5mep2cpakf5yBZIS2y_Yll0QhBO3CgJc8AK9lnKyqEqtsByyPT-vkIetahG06HJoXfElWevpDOTW8q3gqwz478llCLErfGlI0ENhj3wd&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ18AJegQIHRAB
+              - generic [ref=e826]:
+                - generic [ref=e827]: Headquarters
+                - generic [ref=e831]: San Francisco, California, United States
+          - generic [ref=e836]:
+            - generic [ref=e837]:
+              - heading "People also ask" [level=2] [ref=e838]
+              - button "About this result" [ref=e839] [cursor=pointer]:
+                - img [ref=e842]
+            - generic [ref=e844]:
+              - button "What is MuleSoft developer?" [ref=e850] [cursor=pointer]:
+                - generic [ref=e852]: What is MuleSoft developer?
+                - img [ref=e855]
+              - button "Does MuleSoft require coding?" [ref=e864] [cursor=pointer]:
+                - generic [ref=e866]: Does MuleSoft require coding?
+                - img [ref=e869]
+              - button "What is MuleSoft developer salary?" [ref=e878] [cursor=pointer]:
+                - generic [ref=e880]: What is MuleSoft developer salary?
+                - img [ref=e883]
+              - button "Is MuleSoft frontend or backend?" [ref=e892] [cursor=pointer]:
+                - generic [ref=e894]: Is MuleSoft frontend or backend?
+                - img [ref=e897]
+            - group [ref=e901]:
+              - button "Feedback" [ref=e902] [cursor=pointer]
+          - generic [ref=e908]:
+            - generic [ref=e910]:
+              - heading "Web results" [level=2] [ref=e911]
+              - link "MuleSoft Developers https://developer.mulesoft.com MuleSoft Developers" [ref=e912] [cursor=pointer]:
+                - /url: https://developer.mulesoft.com/
+                - generic [ref=e914]:
+                  - generic [ref=e921]:
+                    - generic [ref=e923]: MuleSoft Developers
+                    - generic [ref=e925]: https://developer.mulesoft.com
+                  - heading "MuleSoft Developers" [level=3] [ref=e927]:
+                    - link "MuleSoft Developers" [ref=e928]
+              - button "About this result" [ref=e930] [cursor=pointer]:
+                - img [ref=e933]
+            - generic [ref=e936]: "Start your 30-day free trial of the #1 platform for integration, APIs, and automation. No credit card required. No software to install."
+          - generic [ref=e942]:
+            - generic [ref=e944]:
+              - link "Naukri.com https://www.naukri.com Mulesoft Developer Jobs" [ref=e945] [cursor=pointer]:
+                - /url: https://www.naukri.com/mulesoft-developer-jobs
+                - generic [ref=e947]:
+                  - generic [ref=e954]:
+                    - generic [ref=e956]: Naukri.com
+                    - generic [ref=e958]: https://www.naukri.com
+                  - heading "Mulesoft Developer Jobs" [level=3] [ref=e960]:
+                    - link "Mulesoft Developer Jobs" [ref=e961]
+              - button "About this result" [ref=e963] [cursor=pointer]:
+                - img [ref=e966]
+            - generic [ref=e969]: 865 Mulesoft Developer Jobs Available On Naukri.com. Explore Mulesoft Developer Job Vacancies In Your Desired Locations Now!
+          - generic [ref=e975]:
+            - generic [ref=e977]:
+              - link "Trailhead https://trailhead.salesforce.com Certification - Salesforce Certified MuleSoft Developer - Trailhead" [ref=e978] [cursor=pointer]:
+                - /url: https://trailhead.salesforce.com/credentials/mulesoftdeveloperi
+                - generic [ref=e980]:
+                  - generic [ref=e987]:
+                    - generic [ref=e989]: Trailhead
+                    - generic [ref=e991]: https://trailhead.salesforce.com
+                  - heading "Certification - Salesforce Certified MuleSoft Developer - Trailhead" [level=3] [ref=e993]:
+                    - link "Certification - Salesforce Certified MuleSoft Developer - Trailhead" [ref=e994]
+              - button "About this result" [ref=e996] [cursor=pointer]:
+                - img [ref=e999]
+            - generic [ref=e1002]: Certified MuleSoft Developers have proven knowledge and skills to design, build, test and debug, deploy and manage basic APIs and integrations. See New ...
+          - generic [ref=e1008]:
+            - generic [ref=e1010]:
+              - link "MuleSoft Developers https://developer.mulesoft.com Tutorials and How Tos" [ref=e1011] [cursor=pointer]:
+                - /url: https://developer.mulesoft.com/tutorials-and-howtos/
+                - generic [ref=e1013]:
+                  - generic [ref=e1020]:
+                    - generic [ref=e1022]: MuleSoft Developers
+                    - generic [ref=e1024]: https://developer.mulesoft.com
+                  - heading "Tutorials and How Tos" [level=3] [ref=e1026]:
+                    - link "Tutorials and How Tos" [ref=e1027]
+              - button "About this result" [ref=e1029] [cursor=pointer]:
+                - img [ref=e1032]
+            - generic [ref=e1035]: Get started with this tutorial series to learn best practices to develop, test, and deploy your Mule applications.
+          - generic [ref=e1041]:
+            - generic [ref=e1043]:
+              - 'link "Reddit · r/softwaredevelopment 10+ comments · 3 months ago What''s the future of mulesoft developer? : r/softwaredevelopment" [ref=e1044] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/
+                - generic [ref=e1046]:
+                  - generic [ref=e1053]:
+                    - generic [ref=e1055]: Reddit · r/softwaredevelopment
+                    - generic [ref=e1057]: 10+ comments · 3 months ago
+                  - 'heading "What''s the future of mulesoft developer? : r/softwaredevelopment" [level=3] [ref=e1059]':
+                    - 'link "What''s the future of mulesoft developer? : r/softwaredevelopment" [ref=e1060]'
+              - button "About this result" [ref=e1062] [cursor=pointer]:
+                - img [ref=e1065]
+            - generic [ref=e1068]: Hi I’m a backend software engineer in java spring framework, now I’m moved to a completely new team where I’m supposed to work on mulesoft, a low ...
+            - list [ref=e1076]:
+              - listitem [ref=e1077]:
+                - generic [ref=e1081]:
+                  - link "MuleSoft is garbage. It’s expensive. It’s overly complicated and the ide’s are ... More Top answer · 7 votes":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnawz6y/
+                  - generic [ref=e1082]:
+                    - text: MuleSoft is garbage. It’s expensive. It’s overly complicated and the ide’s are ...
+                    - link [ref=e1083] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnawz6y/
+                      - generic [ref=e1084]: More
+                      - img [ref=e1086]
+                  - generic [ref=e1088]:
+                    - generic [ref=e1089]:
+                      - img [ref=e1091]
+                      - text: Top answer
+                    - text: · 7 votes
+              - listitem [ref=e1093]:
+                - generic [ref=e1097]:
+                  - link "No. There’s no future in Mulesoft. But that doesn’t mean you don’t learn it. Do well ... More 4 votes":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnca4k8/
+                  - generic [ref=e1098]:
+                    - text: No. There’s no future in Mulesoft. But that doesn’t mean you don’t learn it. Do well ...
+                    - link [ref=e1099] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnca4k8/
+                      - generic [ref=e1100]: More
+                      - img [ref=e1102]
+                  - generic [ref=e1104]: 4 votes
+              - listitem [ref=e1105]:
+                - generic [ref=e1109]:
+                  - link "Low code/no code platforms generally have a bad reputation. They tend to be overly opinionated ... More 3 votes":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnao1v7/
+                  - generic [ref=e1110]:
+                    - text: Low code/no code platforms generally have a bad reputation. They tend to be overly opinionated ...
+                    - link [ref=e1111] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnao1v7/
+                      - generic [ref=e1112]: More
+                      - img [ref=e1114]
+                  - generic [ref=e1116]: 3 votes
+              - listitem [ref=e1117]:
+                - generic [ref=e1121]:
+                  - link "Get out! More 3 votes":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnb8lzi/
+                  - generic [ref=e1122]:
+                    - text: Get out!
+                    - link [ref=e1123] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnb8lzi/
+                      - generic [ref=e1124]: More
+                      - img [ref=e1126]
+                  - generic [ref=e1128]: 3 votes
+              - listitem [ref=e1129]:
+                - generic [ref=e1133]:
+                  - link "Run you fools! Especially since you have experience in a well established stack. More 1 vote":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nngfp1h/
+                  - generic [ref=e1134]:
+                    - text: Run you fools! Especially since you have experience in a well established stack.
+                    - link [ref=e1135] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nngfp1h/
+                      - generic [ref=e1136]: More
+                      - img [ref=e1138]
+                  - generic [ref=e1140]: 1 vote
+              - listitem [ref=e1141]:
+                - generic [ref=e1145]:
+                  - link "Back in the days (2010-ish), it used to be a somewhat decent way of running multiple small ... More 1 vote":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnijief/
+                  - generic [ref=e1146]:
+                    - text: Back in the days (2010-ish), it used to be a somewhat decent way of running multiple small ...
+                    - link [ref=e1147] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nnijief/
+                      - generic [ref=e1148]: More
+                      - img [ref=e1150]
+                  - generic [ref=e1152]: 1 vote
+              - listitem [ref=e1153]:
+                - generic [ref=e1157]:
+                  - link "Data Weave anyone? Even the sales guys joke about it. More 1 vote":
+                    - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nof2jbk/
+                  - generic [ref=e1158]:
+                    - text: Data Weave anyone? Even the sales guys joke about it.
+                    - link [ref=e1159] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/nof2jbk/
+                      - generic [ref=e1160]: More
+                      - img [ref=e1162]
+                  - generic [ref=e1164]: 1 vote
+              - listitem [ref=e1165]:
+                - link "View all posts" [ref=e1167] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/softwaredevelopment/comments/1opd5et/whats_the_future_of_mulesoft_developer/
+                  - generic [ref=e1169]:
+                    - img [ref=e1172]
+                    - generic [ref=e1174]: View all posts
+            - generic [ref=e1178]:
+              - generic [ref=e1179]:
+                - link "0 experience to Mulesoft Developer r/MuleSoft 5 comments 1y" [ref=e1182] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/MuleSoft/comments/1f02mz6/0_experience_to_mulesoft_developer/
+                  - generic [ref=e1184]:
+                    - generic [ref=e1185]:
+                      - generic [ref=e1186]: 0 experience to Mulesoft Developer
+                      - img [ref=e1188]
+                    - generic [ref=e1190]:
+                      - generic [ref=e1192]: r/MuleSoft
+                      - generic [ref=e1193]: ·
+                      - generic [ref=e1195]: 5 comments
+                      - generic [ref=e1196]: ·
+                      - generic [ref=e1198]: 1y
+                - link "Is Mulesoft Development a dead end career path? r/MuleSoft 10+ comments 6mo" [ref=e1202] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/MuleSoft/comments/1m7qaj8/is_mulesoft_development_a_dead_end_career_path/
+                  - generic [ref=e1204]:
+                    - generic [ref=e1205]:
+                      - generic [ref=e1206]: Is Mulesoft Development a dead end career path?
+                      - img [ref=e1208]
+                    - generic [ref=e1210]:
+                      - generic [ref=e1212]: r/MuleSoft
+                      - generic [ref=e1213]: ·
+                      - generic [ref=e1215]: 10+ comments
+                      - generic [ref=e1216]: ·
+                      - generic [ref=e1218]: 6mo
+              - link "More results from Reddit" [ref=e1221] [cursor=pointer]:
+                - /url: /search?q=mulesoft+developer+site:www.reddit.com&sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&prmd=ivn&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQrQJ6BQiwARAG
+                - generic [ref=e1222]:
+                  - generic [ref=e1223]: More results from Reddit
+                  - img [ref=e1227]
+          - generic [ref=e1233]:
+            - heading "People also search for" [level=2] [ref=e1235]
+            - link "Mulesoft developer salary" [ref=e1241] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=Mulesoft+developer+salary&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiLARAB
+              - generic [ref=e1245]: Mulesoft developer salary
+              - img [ref=e1249]
+            - link "Mulesoft developer jobs" [ref=e1258] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=Mulesoft+developer+jobs&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQimARAB
+              - generic [ref=e1262]: Mulesoft developer jobs
+              - img [ref=e1266]
+            - link "Mulesoft developer job description" [ref=e1275] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=Mulesoft+developer+job+description&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQigARAB
+              - generic [ref=e1279]: Mulesoft developer job description
+              - img [ref=e1283]
+            - link "Is MuleSoft Developer a good career" [ref=e1292] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=Is+MuleSoft+Developer+a+good+career&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiYARAB
+              - generic [ref=e1296]: Is MuleSoft Developer a good career
+              - img [ref=e1300]
+            - link "MuleSoft Developer certification" [ref=e1309] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+Developer+certification&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiRARAB
+              - generic [ref=e1313]: MuleSoft Developer certification
+              - img [ref=e1317]
+            - link "MuleSoft Developer course" [ref=e1326] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+Developer+course&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiPARAB
+              - generic [ref=e1330]: MuleSoft Developer course
+              - img [ref=e1334]
+          - generic [ref=e1338]:
+            - generic [ref=e1341]:
+              - heading "Videos" [level=2] [ref=e1342]
+              - button "About this result" [ref=e1343] [cursor=pointer]:
+                - img [ref=e1346]
+            - generic [ref=e1348]:
+              - generic [ref=e1354]:
+                - generic [ref=e1355]:
+                  - link "MuleSoft Developer Roadmap | How to Become a MuleSoft Developer ... YouTube MindMajix 16 Apr 2025" [ref=e1357] [cursor=pointer]:
+                    - /url: https://www.youtube.com/shorts/zDAc7LWCzI8
+                    - generic [ref=e1358]:
+                      - heading "MuleSoft Developer Roadmap | How to Become a MuleSoft Developer ..." [level=3] [ref=e1360]
+                      - generic [ref=e1361]:
+                        - generic [ref=e1362]: YouTube
+                        - text: · MindMajix
+                        - generic [ref=e1363]: 16 Apr 2025
+                  - button "MuleSoft Developer Roadmap | How to Become a MuleSoft Developer ... by MindMajix on YouTube. Play on Google. 0:48" [ref=e1364] [cursor=pointer]:
+                    - generic [ref=e1365]:
+                      - img [ref=e1371]
+                      - generic [ref=e1374]:
+                        - generic [ref=e1375]: 0:48
+                        - img [ref=e1378]
+                - button "About this result" [ref=e1380] [cursor=pointer]:
+                  - img [ref=e1383]
+                - button "To become a MuleSoft developer, learn API development, Java, XML, JSON, SQL, MuleSoft tools like Anypoint Platform, cloud skills, and get certified." [ref=e1386] [cursor=pointer]:
+                  - generic [ref=e1389]: To become a MuleSoft developer, learn API development, Java, XML, JSON, SQL, MuleSoft tools like Anypoint Platform, cloud skills, and get certified.
+              - generic [ref=e1395]:
+                - generic [ref=e1396]:
+                  - link "How to become a Mulesoft developer? | How to start your career in Mulesoft ... YouTube saasguru 4 Aug 2023" [ref=e1398] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=HGGpnRjF7W4
+                    - generic [ref=e1399]:
+                      - heading "How to become a Mulesoft developer? | How to start your career in Mulesoft ..." [level=3] [ref=e1401]
+                      - generic [ref=e1402]:
+                        - generic [ref=e1403]: YouTube
+                        - text: · saasguru
+                        - generic [ref=e1404]: 4 Aug 2023
+                  - button "How to become a Mulesoft developer? | How to start your career in Mulesoft ... by saasguru on YouTube. Play on Google. 4:28" [ref=e1405] [cursor=pointer]:
+                    - generic [ref=e1406]:
+                      - img [ref=e1409]
+                      - generic [ref=e1412]:
+                        - generic [ref=e1413]: 4:28
+                        - img [ref=e1416]
+                - button "About this result" [ref=e1418] [cursor=pointer]:
+                  - img [ref=e1421]
+                - button "Mulesoft offers diverse career paths, including developer, architect, consultant, sales, and training roles with high demand and salaries." [ref=e1424] [cursor=pointer]:
+                  - generic [ref=e1427]: Mulesoft offers diverse career paths, including developer, architect, consultant, sales, and training roles with high demand and salaries.
+              - generic [ref=e1433]:
+                - generic [ref=e1434]:
+                  - link "MuleSoft Full Course (30 Hours) – Beginner to Advanced | Free Real ... YouTube KLART Technologies 8 Mar 2025" [ref=e1436] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=o6XuKS0wDKk
+                    - generic [ref=e1437]:
+                      - heading "MuleSoft Full Course (30 Hours) – Beginner to Advanced | Free Real ..." [level=3] [ref=e1439]
+                      - generic [ref=e1440]:
+                        - generic [ref=e1441]: YouTube
+                        - text: · KLART Technologies
+                        - generic [ref=e1442]: 8 Mar 2025
+                  - button "MuleSoft Full Course (30 Hours) – Beginner to Advanced | Free Real ... by KLART Technologies on YouTube. Play on Google. 10:57:22" [ref=e1443] [cursor=pointer]:
+                    - generic [ref=e1444]:
+                      - img [ref=e1450]
+                      - generic [ref=e1453]:
+                        - generic [ref=e1454]: 10:57:22
+                        - img [ref=e1457]
+                - button "About this result" [ref=e1459] [cursor=pointer]:
+                  - img [ref=e1462]
+                - button "Learn MuleSoft for free from scratch with this 30-day course covering basics, real-time examples, and hands-on practice." [ref=e1465] [cursor=pointer]:
+                  - generic [ref=e1468]: Learn MuleSoft for free from scratch with this 30-day course covering basics, real-time examples, and hands-on practice.
+            - link "More videos" [ref=e1471] [cursor=pointer]:
+              - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&udm=7&q=mulesoft+developer&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ8ccDKAJ6BQiOARAE
+              - generic [ref=e1472]:
+                - generic [ref=e1473]: More videos
+                - img [ref=e1477]
+          - generic [ref=e1485]:
+            - generic [ref=e1487]:
+              - heading "Web results" [level=2] [ref=e1488]
+              - link "HCLTech https://www.hcltech.com Mulesoft Senior Developer" [ref=e1489] [cursor=pointer]:
+                - /url: https://www.hcltech.com/careers/mulesoft-senior-developer
+                - generic [ref=e1491]:
+                  - generic [ref=e1498]:
+                    - generic [ref=e1500]: HCLTech
+                    - generic [ref=e1502]: https://www.hcltech.com
+                  - heading "Mulesoft Senior Developer" [level=3] [ref=e1504]:
+                    - link "Mulesoft Senior Developer" [ref=e1505]
+              - button "About this result" [ref=e1507] [cursor=pointer]:
+                - img [ref=e1510]
+            - generic [ref=e1513]: Mulesoft Senior Developer · Minimum 3+ years of experience in Mulesoft · Java, Middleware, Mule ESB, Strong knowledge of SOA and experience in designing Mule ...
+          - generic [ref=e1519]:
+            - generic [ref=e1521]:
+              - link "BluEnt https://www.bluent.com 12 Essential Skills for Successful MuleSoft Developers" [ref=e1522] [cursor=pointer]:
+                - /url: https://www.bluent.com/blog/mulesoft-developers
+                - generic [ref=e1524]:
+                  - generic [ref=e1531]:
+                    - generic [ref=e1533]: BluEnt
+                    - generic [ref=e1535]: https://www.bluent.com
+                  - heading "12 Essential Skills for Successful MuleSoft Developers" [level=3] [ref=e1537]:
+                    - link "12 Essential Skills for Successful MuleSoft Developers" [ref=e1538]
+              - button "About this result" [ref=e1540] [cursor=pointer]:
+                - img [ref=e1543]
+            - generic [ref=e1546]:
+              - generic [ref=e1547]: 30 Oct 2023 —
+              - text: A MuleSoft developer works in a MuleSoft environment. They are usually responsible for developing, maintaining, and supporting MuleSoft applications.
+          - generic [ref=e1553]:
+            - generic [ref=e1555]:
+              - link "iMocha https://www.imocha.io Skills Required for Mulesoft Developer" [ref=e1556] [cursor=pointer]:
+                - /url: https://www.imocha.io/skill-mapping/skills-required-for-mulesoft-developer
+                - generic [ref=e1558]:
+                  - generic [ref=e1565]:
+                    - generic [ref=e1567]: iMocha
+                    - generic [ref=e1569]: https://www.imocha.io
+                  - heading "Skills Required for Mulesoft Developer" [level=3] [ref=e1571]:
+                    - link "Skills Required for Mulesoft Developer" [ref=e1572]
+              - button "About this result" [ref=e1574] [cursor=pointer]:
+                - img [ref=e1577]
+            - generic [ref=e1580]: Explore a detailed breakdown of Mulesoft Developer skills. Learn how to create tailored job profiles & understand your team's true skill landscape ...
+          - generic [ref=e1586]:
+            - generic [ref=e1588]:
+              - link "LinkedIn India https://in.linkedin.com 45000+ Mulesoft Developer jobs in India (1419 new)" [ref=e1589] [cursor=pointer]:
+                - /url: https://in.linkedin.com/jobs/mulesoft-developer-jobs
+                - generic [ref=e1591]:
+                  - generic [ref=e1598]:
+                    - generic [ref=e1600]: LinkedIn India
+                    - generic [ref=e1602]: https://in.linkedin.com
+                  - heading "45000+ Mulesoft Developer jobs in India (1419 new)" [level=3] [ref=e1604]:
+                    - link "45000+ Mulesoft Developer jobs in India (1419 new)" [ref=e1605]
+              - button "About this result" [ref=e1607] [cursor=pointer]:
+                - img [ref=e1610]
+            - generic [ref=e1613]: 45,000+ Mulesoft Developer Jobs in India (1,419 new). Mulesoft Developer. Mulesoft Developer. ETG Digital. Hyderabad, Telangana, India. Actively Hiring. 2 days ...
+      - generic [ref=e1615]:
+        - generic [ref=e1619]:
+          - heading "People also search for" [level=2] [ref=e1621]
+          - link "MuleSoft developer skills" [ref=e1627] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+developer+skills&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiKARAB
+            - generic [ref=e1631]: MuleSoft developer skills
+            - img [ref=e1635]
+          - link "MuleSoft Developer RoadMap" [ref=e1644] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+Developer+RoadMap&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQinARAB
+            - generic [ref=e1648]: MuleSoft Developer RoadMap
+            - img [ref=e1652]
+          - link "Mulesoft Developer Salary in India" [ref=e1661] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=Mulesoft+Developer+Salary+in+India&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQijARAB
+            - generic [ref=e1665]: Mulesoft Developer Salary in India
+            - img [ref=e1669]
+          - link "MuleSoft Developer jobs for freshers" [ref=e1678] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+Developer+jobs+for+freshers&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQicARAB
+            - generic [ref=e1682]: MuleSoft Developer jobs for freshers
+            - img [ref=e1686]
+          - link "MuleSoft developer tutorial" [ref=e1695] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+developer+tutorial&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiSARAB
+            - generic [ref=e1699]: MuleSoft developer tutorial
+            - img [ref=e1703]
+          - link "MuleSoft developer need coding" [ref=e1712] [cursor=pointer]:
+            - /url: /search?sca_esv=f5dfd2a34bf4e47a&biw=393&bih=727&q=MuleSoft+developer+need+coding&sa=X&ved=2ahUKEwj8-6fCiciSAxUszzgGHfd6J9gQ1QJ6BQiQARAB
+            - generic [ref=e1716]: MuleSoft developer need coding
+            - img [ref=e1720]
+        - generic [ref=e1724]:
+          - heading "Page Navigation" [level=1] [ref=e1725]
+          - button "More search results" [ref=e1726] [cursor=pointer]:
+            - generic [ref=e1728]:
+              - generic [ref=e1729]: More search results
+              - img [ref=e1733]
+    - contentinfo [ref=e1736]:
+      - generic [ref=e1737]:
+        - heading "Footer links" [level=1] [ref=e1738]
+        - generic [ref=e1740]:
+          - generic [ref=e1742]: India
+          - generic [ref=e1744]:
+            - button "Wagholi, Pune, Maharashtra - From your IP address" [ref=e1746] [cursor=pointer]:
+              - generic [ref=e1747]: Wagholi, Pune, Maharashtra
+              - generic [ref=e1749]:
+                - text: "-"
+                - generic [ref=e1750]: From your IP address
+            - button "Update location" [ref=e1753] [cursor=pointer]: Update location
+          - generic [ref=e1755]:
+            - generic [ref=e1756]:
+              - 'link "Dark theme: off" [ref=e1757] [cursor=pointer]':
+                - /url: "#"
+              - link "Help" [ref=e1758] [cursor=pointer]:
+                - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+              - link "Feedback" [ref=e1759] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e1760]:
+              - link "Privacy" [ref=e1761] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+              - link "Terms" [ref=e1762] [cursor=pointer]:
+                - /url: https://policies.google.com/terms?hl=en-IN&fg=1
+```
