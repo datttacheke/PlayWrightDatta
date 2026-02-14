@@ -1,7 +1,8 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
+const { test, expect, chromium } = require('@playwright/test');
 
-test('@Web1 First playwright Test', async ({ browser }) => {
+test('@Web First playwright Test', async ({ browser }) => {
+   
     const context = await browser.newContext(); //creating new newContext for browser
     const page = await context.newPage(); //creating new newContext for page
     await page.goto("https://www.google.com/");

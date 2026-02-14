@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "regression": "npx playwright test",
+    "regression_headed": "npx playwright test --project=chromium --headed",
     "webTests": "npx playwright test --grep @Web",
     "APITests": "npx playwright test --grep @API",
     "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
@@ -14,8 +15,16 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
     "@playwright/test": "^1.58.2",
+    "@types/axe-core": "^4.11.1",
     "@types/node": "^25.2.1",
-    "allure-playwright": "^3.4.5"
+    "allure-playwright": "^7.16.13",
+    "axe-core": "^4.11.1",
+    "@cucumber/cucumber": "*"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "exceljs": "^4.4.0"
   }
 }
