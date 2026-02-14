@@ -20,7 +20,6 @@
     "@types/axe-core": "^4.11.1",
     "@types/node": "^25.2.1",
     "allure-playwright": "^7.16.13",
-    "axe-core": "^4.11.1",
     "@cucumber/cucumber": "*"
   },
   "dependencies": {
