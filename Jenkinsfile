@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     parameters {
+        choice(
+    name: 'ENV',
+    choices: ['dev', 'qa', 'prod'],
+    description: 'Test environment'
+     )
 
         choice(
             name: 'BROWSER',
@@ -20,6 +25,12 @@ pipeline {
             defaultValue: true,
             description: 'Run Playwright tests'
         )
+        string(
+    name: 'TEST_TAG',
+    defaultValue: '',
+    description: 'Run specific tagged tests (@smoke, @regression)'
+)
+
     }
 
     environment {
@@ -54,9 +65,21 @@ pipeline {
             when {
                 expression { params.RUN_TESTS == true }
             }
-            steps {
-                bat "npx playwright test --project=${params.BROWSER}"
-            }
+           steps {
+    script {
+        def cmd = "npx playwright test"
+
+        if (params.BROWSER) {
+            cmd += " --project=${params.BROWSER}"
+        }
+
+        if (params.TEST_TAG?.trim()) {
+            cmd += " --grep \"${params.TEST_TAG}\""
+        }
+
+        bat "set ENV=${params.ENV} && " + cmd
+    }
+}
         }
     }
 
