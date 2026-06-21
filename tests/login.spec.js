@@ -1,13 +1,11 @@
 const { test, expect } = require('@playwright/test');
 
-test('login test @smoke', async ({ page, baseURL }) => {
+test('login test @smoke', async ({ page }) => {
 
-  await page.goto(`${baseURL}/login`);
-
-  await page.fill('#username', 'testuser');
-  await page.fill('#password', 'password123');
-
-  await page.click('button[type="submit"]');
-
+  // baseURL automatically comes from playwright.config.js
+  await page.goto('/client');
+  await page.locator("#userEmail").fill("dattacheke@gmail.com");
+  await page.getByPlaceholder("enter your passsword").fill("Datta@1212");
+  await page.getByRole('button', { name: "login" }).click();
   await expect(page).toHaveURL(/dashboard/);
 });
