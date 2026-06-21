@@ -1,6 +1,27 @@
 pipeline {
     agent any
 
+    parameters {
+
+        choice(
+            name: 'BROWSER',
+            choices: ['chromium', 'firefox', 'webkit'],
+            description: 'Select browser for Playwright tests'
+        )
+
+        booleanParam(
+            name: 'INSTALL_BROWSERS',
+            defaultValue: true,
+            description: 'Install Playwright browsers before running tests'
+        )
+
+        booleanParam(
+            name: 'RUN_TESTS',
+            defaultValue: true,
+            description: 'Run Playwright tests'
+        )
+    }
+
     environment {
         CI = 'true'
     }
@@ -16,19 +37,25 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                bat 'npm ci'
             }
         }
 
-        stage('Install Playwright Browsers') {
+        stage('Install Browsers') {
+            when {
+                expression { params.INSTALL_BROWSERS == true }
+            }
             steps {
-                bat 'npx playwright install --with-deps'
+                bat 'npx playwright install'
             }
         }
 
         stage('Run Tests') {
+            when {
+                expression { params.RUN_TESTS == true }
+            }
             steps {
-                bat 'npx playwright test'
+                bat "npx playwright test --project=${params.BROWSER}"
             }
         }
     }
@@ -36,11 +63,6 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: 'playwright-report/**/*', allowEmptyArchive: true
-            publishHTML(target: [
-                reportDir: 'playwright-report',
-                reportFiles: 'index.html',
-                reportName: 'Playwright Report'
-            ])
         }
     }
 }
