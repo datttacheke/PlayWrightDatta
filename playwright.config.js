@@ -42,7 +42,7 @@ module.exports = defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: true,
+    headless: false,
   },
 
   projects: [
