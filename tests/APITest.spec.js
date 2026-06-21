@@ -18,6 +18,6 @@ test('Simple API GET request', async ({ request }) => {
   expect(user[4].company.name).toBe('Keebler LLC');
 
   console.log("date:", response.headers().date);
-  //console.log(user);
+  console.log(user);
 
 });
