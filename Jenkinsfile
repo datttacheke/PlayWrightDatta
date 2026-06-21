@@ -16,7 +16,6 @@ pipeline {
         choice(
     name: 'TEST_TAG',
     choices: ['@smoke', '@regression'],
-    defaultValue: '',
     description: 'Run specific tagged tests (@smoke, @regression)'
 )
         booleanParam(
