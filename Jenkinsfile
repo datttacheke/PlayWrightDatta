@@ -13,7 +13,12 @@ pipeline {
             choices: ['chromium', 'firefox', 'webkit'],
             description: 'Select browser for Playwright tests'
         )
-
+        choice(
+    name: 'TEST_TAG',
+    choices: ['@smoke', '@regression'],
+    defaultValue: '',
+    description: 'Run specific tagged tests (@smoke, @regression)'
+)
         booleanParam(
             name: 'INSTALL_BROWSERS',
             defaultValue: true,
@@ -25,12 +30,7 @@ pipeline {
             defaultValue: true,
             description: 'Run Playwright tests'
         )
-        choice(
-    name: 'TEST_TAG',
-    choices: ['@smoke', '@regression'],
-    defaultValue: '',
-    description: 'Run specific tagged tests (@smoke, @regression)'
-)
+        
 
     }
 
