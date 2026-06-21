@@ -3,7 +3,7 @@ const { devices } = require('@playwright/test');
 
 const config = {
   testDir: './tests',
-  retries :1,
+  retries : 1,
   workers: 3,
   /* Maximum time one test can run for. */
   //10-
@@ -14,19 +14,24 @@ const config = {
   },
   
   reporter: 'html',
+  
   projects : [
-    {
-      name : 'safari',
-      use: {
+    // {
+    //   name: 'setup',
+    //   testMatch: /auth\.setup\.ts/,
+    // },
+    // {
+    //   name : 'safari',
+    //   use: {
 
-        browserName : 'webkit',
-        headless : false,
-        screenshot : 'off',
-        trace : 'on',//off,on 
-        ...devices['iPhone 15 Pro Max'],    
-      }
+    //     browserName : 'webkit',
+    //     headless : false,
+    //     screenshot : 'off',
+    //     trace : 'on',//off,on 
+    //     ...devices['iPhone 15 Pro Max'],    
+    //   }
 
-    },
+    // },
     {
       name : 'chromium',
       use: {
