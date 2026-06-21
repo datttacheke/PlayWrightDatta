@@ -3,10 +3,10 @@ pipeline {
 
     parameters {
         choice(
-    name: 'ENV',
-    choices: ['dev', 'qa', 'prod'],
-    description: 'Test environment'
-     )
+            name: 'ENV',
+            choices: ['dev', 'qa', 'prod'],
+            description: 'Test environment'
+        )
 
         choice(
             name: 'BROWSER',
@@ -14,10 +14,10 @@ pipeline {
             description: 'Select browser for Playwright tests'
         )
         choice(
-    name: 'TEST_TAG',
-    choices: ['@smoke', '@regression'],
-    description: 'Run specific tagged tests (@smoke, @regression)'
-)
+            name: 'TEST_TAG',
+            choices: ['@smoke', '@regression'],
+            description: 'Run specific tagged tests (@smoke, @regression)'
+     )
         booleanParam(
             name: 'INSTALL_BROWSERS',
             defaultValue: true,
@@ -29,8 +29,6 @@ pipeline {
             defaultValue: true,
             description: 'Run Playwright tests'
         )
-        
-
     }
 
     environment {
