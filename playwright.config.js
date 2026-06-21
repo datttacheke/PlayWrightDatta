@@ -1,56 +1,61 @@
-// @ts-check
-const { devices } = require('@playwright/test');
+// playwright.config.js
+const { defineConfig, devices } = require('@playwright/test');
 
-const config = {
-  testDir: './tests',
-  retries : 1,
-  workers: 3,
-  /* Maximum time one test can run for. */
-  //10-
-  timeout: 40 * 1000,
-  expect: {
-  
-    timeout: 5000
+const ENV = process.env.ENV || 'dev';
+
+// You can expand these URLs as needed
+const environments = {
+  dev: {
+    baseURL: 'https://dev.your-app.com',
   },
-  reporter: [['html', { open: 'never' }]],
-  //reporter: 'html',
-  
-  projects : [
-    // {
-    //   name: 'setup',
-    //   testMatch: /auth\.setup\.ts/,
-    // },
-    // {
-    //   name : 'safari',
-    //   use: {
-
-    //     browserName : 'webkit',
-    //     headless : false,
-    //     screenshot : 'off',
-    //     trace : 'on',//off,on 
-    //     ...devices['iPhone 15 Pro Max'],    
-    //   }
-
-    // },
-    {
-      name : 'chromium',
-      use: {
-
-        browserName : 'chromium',
-        headless : false,
-        screenshot : 'on',
-        //video: 'retain-on-failure',
-        ignoreHttpsErrors:true,
-        permissions:['geolocation'],
-        
-        trace : 'on',//off,on
-       // ...devices['']
-     //   viewport : {width:720,height:720}
-         }
-
-    }
-    ]
-
+  qa: {
+    baseURL: 'https://qa.your-app.com',
+  },
+  prod: {
+    baseURL: 'https://your-app.com',
+  },
 };
 
-module.exports = config;
+module.exports = defineConfig({
+  testDir: './tests',
+
+  // Use Jenkins-friendly reporter
+  reporter: [
+    ['html', { open: 'never' }],
+    ['list']
+  ],
+
+  timeout: 30 * 1000,
+  expect: {
+    timeout: 5000,
+  },
+
+  fullyParallel: true,
+  retries: process.env.CI ? 1 : 0,
+  workers: process.env.CI ? 2 : undefined,
+
+  use: {
+    baseURL: environments[ENV].baseURL,
+    trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+    headless: true,
+  },
+
+  projects: [
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
+  ],
+
+  outputDir: 'test-results',
+});
